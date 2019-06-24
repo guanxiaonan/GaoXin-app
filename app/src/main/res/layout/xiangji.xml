@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ADD8E6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/t0"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:text="项目基本情况"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00CED1"
+            android:text="提交"/></LinearLayout>
+    <LinearLayout
+        android:layout_height="45dp"
+        android:layout_width="match_parent" android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="前三年项目累计"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="73dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="项目名称"
+            android:textSize="20dp"></TextView>
+        <EditText android:id="@+id/editText2"
+            android:layout_height="45dp"
+            android:layout_width="200dp"
+            android:text=""
+            android:textSize="20dp">
+        </EditText></LinearLayout>
+    <LinearLayout
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="102dp"
+            android:layout_height="45dp"
+            android:text="投入资金"
+            android:textSize="20dp"></TextView>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="99dp"
+            android:layout_height="45dp"
+            android:text=""
+            android:textSize="20dp"></EditText>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="87dp"
+            android:layout_height="45dp"
+            android:text="立项时间"
+            android:textSize="20dp"></TextView>
+        <EditText
+            android:id="@+id/tv_date"
+            android:layout_height="45dp"
+            android:layout_width="200dp"
+            android:text="点击选择日期"
+            android:textColor="@color/liji_material_blue_700"
+            android:textSize="15dp">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="85dp"
+            android:layout_height="45dp"
+            android:text="材料"
+            android:textSize="20dp"></TextView>
+
+        <CheckBox
+            android:id="@+id/c0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="检测报告" />
+
+        <CheckBox
+            android:id="@+id/c1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="图片" />
+
+        <CheckBox
+            android:id="@+id/c2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="销售合同" />
+
+        <CheckBox
+            android:id="@+id/c3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="发票" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="204dp">
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:text="基本内容；用途、成果"
+            android:textSize="20dp"></TextView>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="303dp"
+            android:layout_height="200dp"
+            android:text=""
+            android:textSize="20dp"></EditText>
+
+    </LinearLayout>
+</LinearLayout>

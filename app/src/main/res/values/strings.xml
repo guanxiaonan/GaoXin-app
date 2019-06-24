@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">高新技术企业调查表</string>
+    <string name="app_name1">企业基本情况</string>
+    <string name="app_name2">研发中心基本情况</string>
+    <string name="app_name3">项目情况</string>
+    <string name="app_name4">调查依据</string>
+</resources>
